@@ -15,7 +15,7 @@ export default function Home() {
       }}>
         Hello world, this is Alibi's website!
       </span>
-      <span>How are you?</span>
+      <span>I WANT TO EAT</span>
     </div>
   );
 }
