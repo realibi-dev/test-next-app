@@ -5,7 +5,9 @@ export default function Home() {
       height: "90vh",
       display: "flex",
       justifyContent: "center",
-      alignItems: "center"
+      alignItems: "center",
+      flexDirection: "column",
+      gap: 20
     }}>
       <span style={{
         fontSize: 30,
@@ -13,6 +15,7 @@ export default function Home() {
       }}>
         Hello world, this is Alibi's website!
       </span>
+      <span>How are you?</span>
     </div>
   );
 }
